@@ -27,7 +27,7 @@ a{
     right: 400px;
     font-size: 18px;
     font-weight: 800;
-    margin-left: 80px;
+    margin-left: 40px;
     background-color: rgb(0, 143, 215);
     text-decoration: none;
 }
@@ -85,7 +85,7 @@ article img{
 #switch3:checked ~ #controls label:nth-child(4),
 #switch4:checked ~ #controls label:nth-child(5),
 #switch5:checked ~ #controls label:nth-child(1){
-	background: url('/next.png') no-repeat; 
+	background: url('./next.png') no-repeat; 
 	float: right;
 	margin: 0 -84px 0 0; 
 	display: block;
